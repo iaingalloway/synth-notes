@@ -1,0 +1,8 @@
+extends: existence
+message: "Avoid smart quotes (“ ”); use straight quotes (\")."
+level: error
+scope: text
+nonword: true
+tokens:
+  - "“"
+  - "”"

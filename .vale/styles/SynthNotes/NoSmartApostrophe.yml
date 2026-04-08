@@ -1,0 +1,7 @@
+extends: existence
+message: "Avoid smart apostrophes (’) in prose; use a straight apostrophe (')."
+level: error
+scope: text
+nonword: true
+tokens:
+  - "’"

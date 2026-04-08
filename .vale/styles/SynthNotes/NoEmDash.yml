@@ -1,0 +1,7 @@
+extends: existence
+message: "Avoid em dashes (—) in prose; use a hyphen (-)."
+level: error
+scope: text
+nonword: true
+tokens:
+  - "—"

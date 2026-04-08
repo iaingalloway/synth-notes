@@ -1,0 +1,6 @@
+globs:
+  - "**/*.md"
+ignores:
+  - ".git/"
+config:
+  MD013: false

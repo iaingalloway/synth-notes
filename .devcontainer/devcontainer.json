@@ -1,0 +1,26 @@
+{
+  "name": "Synth Notes Devcontainer",
+  "image": "ghcr.io/iaingalloway/devcontainers/base:1.5.24",
+  "features": {
+    "ghcr.io/devcontainers/features/node:2": {
+      "version": "26.1.0"
+    },
+    "ghcr.io/iaingalloway/features/markdownlint-cli2:1.0.0": {
+      "version": "0.22.1"
+    },
+    "ghcr.io/iaingalloway/features/gitversion:1.0.0": {
+      "version": "6.7.0"
+    },
+    "ghcr.io/iaingalloway/features/sval:1.0.0": {
+      "version": "1.0.0"
+    },
+    "ghcr.io/iaingalloway/features/vale:1.0.0": {
+      "version": "3.14.1"
+    }
+  },
+  "runArgs": [
+    "--name",
+    "synth-notes-devcontainer",
+    "--network=host"
+  ]
+}

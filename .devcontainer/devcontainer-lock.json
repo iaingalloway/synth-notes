@@ -1,0 +1,29 @@
+{
+  "features": {
+    "ghcr.io/devcontainers/features/node:2": {
+      "version": "2.0.0",
+      "resolved": "ghcr.io/devcontainers/features/node@sha256:fedd4c11f7adfb64283b578dddc7da906728daa25fa293351c9d913231acf12f",
+      "integrity": "sha256:fedd4c11f7adfb64283b578dddc7da906728daa25fa293351c9d913231acf12f"
+    },
+    "ghcr.io/iaingalloway/features/gitversion:1.0.0": {
+      "version": "1.0.0",
+      "resolved": "ghcr.io/iaingalloway/features/gitversion@sha256:632b64e21da2ce84ab3753ea0ce84949282bee36bdc1a202abea9a70da3cf553",
+      "integrity": "sha256:632b64e21da2ce84ab3753ea0ce84949282bee36bdc1a202abea9a70da3cf553"
+    },
+    "ghcr.io/iaingalloway/features/markdownlint-cli2:1.0.0": {
+      "version": "1.0.0",
+      "resolved": "ghcr.io/iaingalloway/features/markdownlint-cli2@sha256:4d9b740fcd3c4945333b25869eff63bcd0254cb338527ca9d2aca8eec7ab5a48",
+      "integrity": "sha256:4d9b740fcd3c4945333b25869eff63bcd0254cb338527ca9d2aca8eec7ab5a48"
+    },
+    "ghcr.io/iaingalloway/features/sval:1.0.0": {
+      "version": "1.0.0",
+      "resolved": "ghcr.io/iaingalloway/features/sval@sha256:4a87820e70778bdc31ffce272b2ad00a7533fea2b4c9040c8aafb41f39b9dd22",
+      "integrity": "sha256:4a87820e70778bdc31ffce272b2ad00a7533fea2b4c9040c8aafb41f39b9dd22"
+    },
+    "ghcr.io/iaingalloway/features/vale:1.0.0": {
+      "version": "1.0.0",
+      "resolved": "ghcr.io/iaingalloway/features/vale@sha256:c13dc6a7a23d66f8e41aafb08c99aab6c72a76633ef137caec946d1bde4ee794",
+      "integrity": "sha256:c13dc6a7a23d66f8e41aafb08c99aab6c72a76633ef137caec946d1bde4ee794"
+    }
+  }
+}

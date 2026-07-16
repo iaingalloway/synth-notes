@@ -6,31 +6,38 @@ Personal cheat sheet for modular synthesis.
 
 - `modules/` - Notes on individual modules
 
+## Goals
+
+I'm trying to build a versatile ambient synthesizer with a focus on generative and evolving textures. I'd like to incorporate novel methods of control such as IMU, contact microphones, and other sensors to explore the expressive potential of:
+
+- Using motion to control sound
+- Sampling existing motion to control sound
+- The feedback loop between an expressive performer in motion, and the sound they are simultaneously creating and experiencing.
+
 ## Modules
 
-I have access to the following modules. Checked modules have a finished cheat sheet.
+I have access to the following modules:
 
-- [ ] Michigan nRings (Rings) resonator
-- [ ] Michigan Beehive (Plaits) macro oscillator
-- [ ] Michigan Monsoon (Clouds) texture synthesizer
-- [ ] Michigan Pachinko (Marbles) random sampler
-- [ ] Michigan uTides (Tides) tidal modulator
-- [ ] Big T Beruzu (Veils) quad VCA
-
-- [ ] 2x Dopfer A-178 THER theremin controller
-
-- [ ] ADDAC Open Heart Surgery prototyping harness
-
-- [ ] Instruo OCHD analog modulation source
-- [ ] Instruo Harmonaig harmonic quantizer
-- [ ] Instruo Saich quad oscillator
-- [ ] Instruo Arbhar granular processor
-- [ ] Instruo I-o47 multimode resonator/filter
-
-- [ ] Behringer Neutron semi-modular synth
-- [ ] Behringer Model D semi-modular synth
-- [ ] Behringer Wasp semi-modular synth
-- [ ] Instruo Cuir output
+Manufacturer | Name | Category | Function | Sheet | Notes
+--- | --- | --- | --- | --- | ---
+Michigan Synth Works | nRings (Rings) | Sound source | Modal resonator | | -
+Michigan Synth Works | Beehive (Plaits) | Sound source | Macro oscillator | | -
+Michigan Synth Works | Monsoon (Clouds) | Effect | Texture synthesizer | | -
+Michigan Synth Works | Pachinko (Marbles) | Modulation source | Random sampler | | -
+Michigan Synth Works | uTides (Tides) | Modulation source | Tidal modulator | | -
+Big T | Beruzu (Veils) | Utility | Quad VCA | | -
+Dopfer | A-178 THER | Modulation source | Theremin controller | | -
+ADDAC | Open Heart Surgery | Utility | Prototyping harness | | -
+Instruo | OCHD | Modulation source | LFO bank | | -
+Instruo | Harmonaig | Modulation source | Harmonic quantizer | | -
+Instruo | Saich | Sound source | Quad VCO | | -
+Instruo | Arbhar | Effect | Granular processor | | -
+Instruo | I-o47 | Effect | Multimode filter/resonator | | -
+Vostok | Asset | Utility | Bipolar attenuator and offset generator | | -
+Behringer | Neutron | Semi-modular | Analog synthesizer | | -
+Behringer | Model D | Semi-modular | Analog synthesizer | | -
+Behringer | Wasp | Semi-modular | Analog synthesizer | | -
+Instruo | Cuir | Utility | Output module | | -
 
 ## Gaps
 
@@ -46,8 +53,7 @@ Marbles, OCHD, and Tides are great, but I'm lacking a general-purpose function g
 I'm a bit short on utilities, particularly for attenuating, attenuverting, mixing, and offsetting CVs. Veils is great, but it leans quite far towards VCA and less towards utility.
 
 - Mutable Blinds
-- 3x MIA
-- Instruo 1f?
-- Instruo Carn?
 
-If I'm removing the Neutron from my rack, I'll also need some other generic utilities - mults, buffered mults, etc.
+If I'm removing the Neutron from my rack, I'll also need some other generic utilities - mults, buffered mults, etc - as well as possibly a swiss-army knife module for CV processing.
+
+- Disting EX

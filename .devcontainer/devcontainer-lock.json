@@ -1,10 +1,5 @@
 {
   "features": {
-    "ghcr.io/devcontainers/features/node:2": {
-      "version": "2.0.0",
-      "resolved": "ghcr.io/devcontainers/features/node@sha256:fedd4c11f7adfb64283b578dddc7da906728daa25fa293351c9d913231acf12f",
-      "integrity": "sha256:fedd4c11f7adfb64283b578dddc7da906728daa25fa293351c9d913231acf12f"
-    },
     "ghcr.io/iaingalloway/features/gitversion:1.0.0": {
       "version": "1.0.0",
       "resolved": "ghcr.io/iaingalloway/features/gitversion@sha256:632b64e21da2ce84ab3753ea0ce84949282bee36bdc1a202abea9a70da3cf553",

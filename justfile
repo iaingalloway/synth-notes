@@ -1,8 +1,8 @@
 alias l := lint
 
-default: ci
+default: check
 
-ci: lint
+check: lint
 
 lint: lint-markdown lint-vale
 
